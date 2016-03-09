@@ -10,6 +10,15 @@ To get this project working, you just need to fork or download all of the files 
 $link = mysqli_connect("127.0.0.1 or localhost", "my_user", "my_password", "my_db");
 ```
 
+## Setting up MySQL Database Structure
+
+* Table Name: users
+* Column1: `name` type text
+* Column2: `email` type text
+* Column3: `password` type text
+* Column4: `id` type int (11) [auto increment]
+* Column4: `diary` type text
+
 ## Creator
 
 Secret Diary Project was created by **Christian Pena**
